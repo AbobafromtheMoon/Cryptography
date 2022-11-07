@@ -2,11 +2,6 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.encoders.Hex;
 import java.security.*;
 import java.util.*;
-/*
-    Сначала хотела делать через switch() case, но в процессе написания ЛР выяснила, что в каждом
-    блоке case будет один и тот же код, поэтому я сделала возможность многократного ввода и условие на
-    соответствие названий алгоритма
- */
 
 public class Main
 {
